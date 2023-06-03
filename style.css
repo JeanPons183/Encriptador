@@ -1,0 +1,211 @@
+*
+    {
+        background: #F3F5FC;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    }
+
+header
+    {
+        padding: 20px 10px;
+    }
+
+.logo
+    {
+        padding: 10px 0px;
+        margin-left: 10px;
+    }
+
+h1  
+    {
+        font-style: oblique;
+        font-size: 40px;
+        position: absolute;
+        color: #0a3870;
+        text-align: center;
+        width: 800px;
+        height: 48px;
+    }
+
+main    
+    {
+        display: flex;
+        margin-left: 10%;
+    }
+
+.cuadro_entrada
+    {
+        
+        color: #0a3870;
+        margin-top: 90px;
+        margin-left: 70px;
+        display: block;
+        text-transform: lowercase;
+        display: block;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        color: #0A3871;
+    } 
+.cuadro_entrada::placeholder
+    {
+        color: #0a3870;
+    }
+
+.cuadro_entrada:focus
+    {
+        outline: none;
+    }
+
+.imagenCondiciones
+    {
+        display: inline;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+
+.textoCondiciones
+    {
+        display: inline;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+.botonEntrada
+    {
+        display: flex;
+        margin-top: 20px;
+    }
+
+.EncriptarPB
+    {
+        background-color: #0a3870;
+        border: 1px solid #0A3871;
+        border-radius: 24px; 
+        color: #FFFF; 
+        cursor: pointer;
+        height: 70px;
+        margin-left: 30px;
+        width: 250px;
+    }
+
+.DesencriptarPB
+    {
+        background-color: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px; 
+        color: #0A3871; 
+        cursor: pointer;
+        height: 70px;
+        margin-left: 30px;
+        width: 250px;
+    }
+
+
+.cuadro_salida
+    {
+        /* border: none; */
+        color: #0a3870;
+        margin-top: 90px;
+        margin-left: 70px;
+        display: block;
+        text-transform: lowercase;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        margin-top: 90px;
+        margin-left: 20%;
+        margin-right: 10%;
+        text-transform: lowercase;
+        background-color: white;
+        background-image: url(Images/Muñeco.png);
+        background-repeat: no-repeat;
+        color: #0a3870;
+
+        border: none;
+        border-radius: 20px;
+    } 
+::placeholder
+    {
+        color: #0a3870;
+    }
+
+.cuadro_salida:focus
+    {
+        outline: none;
+    }
+
+h3
+    {
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 120%;
+        /* or 29px */
+        background-color: white;
+        text-align: center;
+
+        margin-top: -120px;
+        margin-left: 120px;
+
+        /* Gray/gray-500 */
+
+        color: #343A40;
+        display: block;
+    }
+
+h4
+    {
+        width: 336px;
+        background-color: white;
+
+        height: 48px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+
+        text-align: center;
+        margin-left: 100px;
+
+        /* Gray/gray-400 */
+
+        color: #495057;
+    }
+
+.CopiarPB
+    {
+        border: 1px solid #0A3871;
+        border-radius: 24px; 
+        color: #0A3871; 
+        cursor: pointer;
+        margin-left: 120px;
+        margin-top: 7%;
+        position: fixed;
+        height: 70px;
+        width: 250px;
+    }
+
+footer
+    {
+        margin-top: 100px;
+    }
+
+.copyright
+    {
+        margin-top: 3%;
+        text-align: center;
+    }
